@@ -51,7 +51,6 @@ function choose(choices) {
 
 
 index2 = choose(database)
-console.log(index2)
 //Main Code
 
 
