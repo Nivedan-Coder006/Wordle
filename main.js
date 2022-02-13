@@ -40,8 +40,117 @@ var database = ["CRANE","TRAIN","JUMPY","CRANK","QUITE","CLOCK","COLIN","PAINT",
 "Cover",
 "Cream",
 
-
-
+"Dance",
+"Death",
+"Depth",
+"Doubt",
+"Draft",
+"Drama",
+"Dream",
+"Dress",
+"Drink",
+"Drive",
+"Earth",
+"Enemy",
+"Entry",
+"Error",
+"Event",
+"Faith",
+"Fault",
+"Field",
+"Fight",
+"Final",
+"Floor",
+"Focus",
+"Force",
+"Frame",
+"Frank",
+"Front",
+"Fruit",
+"Glass",
+"Grant",
+"Grass",
+"Green",
+"Group",
+"Guide",
+"Heart",
+"Henry",
+"Horse",
+"Hotel",
+"House",
+"Image",
+"Index",
+"Input",
+"Issue",
+"Japan",
+"Jones",
+"Judge",
+"Knife",
+"Laura",
+"Layer",
+"Level",
+"Lewis",
+"Light",
+"Limit",
+"Lunch",
+"Major",
+"March",
+"Match",
+"Metal",
+"Model",
+"Money",
+"Month",
+"Motor",
+"Mouth",
+"Music",
+"Night",
+"Noise",
+"North",
+"Novel",
+"Nurse",
+"Offer",
+"Order",
+"Other",
+"Owner",
+"Panel",
+"Paper",
+"Party",
+"Peace",
+"Peter",
+"Phase",
+"Phone",
+"Piece",
+"Pilot",
+"Pitch",
+"Place",
+"Plane",
+"Plant",
+"Plate",
+"Point",
+"Pound",
+"Power",
+"Press",
+"Price",
+"Pride",
+"Prize",
+"Proof",
+"Queen",
+"Radio",
+"Range",
+"Ratio",
+"Reply",
+"Right",
+"River",
+"Round",
+"Route",
+"Rugby",
+"Scale",
+"Scene",
+"Scope",
+"Score",
+"Sense",
+"Shape",
+"Share"
 ]
 
 function choose(choices) {
@@ -51,6 +160,7 @@ function choose(choices) {
 
 
 index2 = choose(database)
+console.log(index2)
 //Main Code
 
 
@@ -657,10 +767,12 @@ document.getElementById("submit").onclick = function(){
         
         current = current+1
     }
+
     document. getElementById('userInput').value = ""
 }else{
     window.alert("**WARNING** Please Enter a Letter and The input field should not be empty!")
 }
+
 
 }
 
