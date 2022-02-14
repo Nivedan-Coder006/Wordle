@@ -14,7 +14,7 @@ var database = ["CRANE","TRAIN","JUMPY","CRANK","QUITE","CLOCK","COLIN","PAINT",
 "Anger",
 "Apple",
 "Award",
-"Based",
+"Basis",
 "Beach",
 "Block",
 "Blood",
@@ -74,6 +74,7 @@ var database = ["CRANE","TRAIN","JUMPY","CRANK","QUITE","CLOCK","COLIN","PAINT",
 "Group",
 "Guide",
 "Heart",
+"Henry",
 "Horse",
 "Hotel",
 "House",
@@ -82,6 +83,7 @@ var database = ["CRANE","TRAIN","JUMPY","CRANK","QUITE","CLOCK","COLIN","PAINT",
 "Input",
 "Issue",
 "Japan",
+"Jones",
 "Judge",
 "Knife",
 "Laura",
@@ -98,6 +100,7 @@ var database = ["CRANE","TRAIN","JUMPY","CRANK","QUITE","CLOCK","COLIN","PAINT",
 "Model",
 "Money",
 "Month",
+"Motor",
 "Mouth",
 "Music",
 "Night",
@@ -142,8 +145,10 @@ var database = ["CRANE","TRAIN","JUMPY","CRANK","QUITE","CLOCK","COLIN","PAINT",
 "Route",
 "Rugby",
 "Scale",
+"Scene",
 "Scope",
 "Score",
+"Sense",
 "Shape",
 "Share"
 ]
@@ -266,9 +271,6 @@ document.getElementById("submit").onclick = function(){
         current +=1
     }
     if(current == 6){
-        if(col1.textContent == word[0]){
-            col1.style.backgroundColor = "green"
-        }
         if(col1.textContent == word[1]){
             col1.style.backgroundColor = "yellow"
         }
@@ -281,12 +283,12 @@ document.getElementById("submit").onclick = function(){
         if(col1.textContent == word[4]){
             col1.style.backgroundColor = "yellow"
         }
+        if(col1.textContent == word[0]){
+            col1.style.backgroundColor = "green"
+        }
 
         if(col2.textContent == word[0]){
             col2.style.backgroundColor = "yellow"
-        }
-        if(col2.textContent == word[1]){
-            col2.style.backgroundColor = "green"
         }
         if(col2.textContent == word[2]){
             col2.style.backgroundColor = "yellow"
@@ -297,6 +299,9 @@ document.getElementById("submit").onclick = function(){
         if(col2.textContent == word[4]){
             col2.style.backgroundColor = "yellow"
         }
+        if(col2.textContent == word[1]){
+            col2.style.backgroundColor = "green"
+        }
 
         if(col3.textContent == word[0]){
             col3.style.backgroundColor = "yellow"
@@ -304,14 +309,14 @@ document.getElementById("submit").onclick = function(){
         if(col3.textContent == word[1]){
             col3.style.backgroundColor = "yellow"
         }
-        if(col3.textContent == word[2]){
-            col3.style.backgroundColor = "green"
-        }
         if(col3.textContent == word[3]){
             col3.style.backgroundColor = "yellow"
         }
         if(col3.textContent == word[4]){
             col3.style.backgroundColor = "yellow"
+        }
+        if(col3.textContent == word[2]){
+            col3.style.backgroundColor = "green"
         }
 
         if(col4.textContent == word[0]){
@@ -323,11 +328,11 @@ document.getElementById("submit").onclick = function(){
         if(col4.textContent == word[2]){
             col4.style.backgroundColor = "yellow"
         }
-        if(col4.textContent == word[3]){
-            col4.style.backgroundColor = "green"
-        }
         if(col4.textContent == word[4]){
             col4.style.backgroundColor = "yellow"
+        }
+        if(col4.textContent == word[3]){
+            col4.style.backgroundColor = "green"
         }
 
         if(col5.textContent == word[0]){
@@ -370,9 +375,7 @@ document.getElementById("submit").onclick = function(){
         current +=1
     }
     if(current == 13){
-        if(col6.textContent == word[0]){
-            col6.style.backgroundColor = "green"
-        }
+
         if(col6.textContent == word[1]){
             col6.style.backgroundColor = "yellow"
         }
@@ -385,12 +388,12 @@ document.getElementById("submit").onclick = function(){
         if(col6.textContent == word[4]){
             col6.style.backgroundColor = "yellow"
         }
+        if(col6.textContent == word[0]){
+            col6.style.backgroundColor = "green"
+        }
 
         if(col7.textContent == word[0]){
             col7.style.backgroundColor = "yellow"
-        }
-        if(col7.textContent == word[1]){
-            col7.style.backgroundColor = "green"
         }
         if(col7.textContent == word[2]){
             col7.style.backgroundColor = "yellow"
@@ -401,6 +404,9 @@ document.getElementById("submit").onclick = function(){
         if(col7.textContent == word[4]){
             col7.style.backgroundColor = "yellow"
         }
+        if(col7.textContent == word[1]){
+            col7.style.backgroundColor = "green"
+        }
 
         if(col8.textContent == word[0]){
             col8.style.backgroundColor = "yellow"
@@ -408,14 +414,14 @@ document.getElementById("submit").onclick = function(){
         if(col8.textContent == word[1]){
             col8.style.backgroundColor = "yellow"
         }
-        if(col8.textContent == word[2]){
-            col8.style.backgroundColor = "green"
-        }
         if(col8.textContent == word[3]){
             col8.style.backgroundColor = "yellow"
         }
         if(col8.textContent == word[4]){
             col8.style.backgroundColor = "yellow"
+        }
+        if(col8.textContent == word[2]){
+            col8.style.backgroundColor = "green"
         }
 
         if(col9.textContent == word[0]){
@@ -427,11 +433,11 @@ document.getElementById("submit").onclick = function(){
         if(col9.textContent == word[2]){
             col9.style.backgroundColor = "yellow"
         }
-        if(col9.textContent == word[3]){
-            col9.style.backgroundColor = "green"
-        }
         if(col9.textContent == word[4]){
             col9.style.backgroundColor = "yellow"
+        }
+        if(col9.textContent == word[3]){
+            col9.style.backgroundColor = "green"
         }
 
         if(col10.textContent == word[0]){
@@ -474,9 +480,7 @@ document.getElementById("submit").onclick = function(){
         current +=1
     }
     if(current == 20){
-        if(col11.textContent == word[0]){
-            col11.style.backgroundColor = "green"
-        }
+
         if(col11.textContent == word[1]){
             col11.style.backgroundColor = "yellow"
         }
@@ -489,12 +493,12 @@ document.getElementById("submit").onclick = function(){
         if(col11.textContent == word[4]){
             col11.style.backgroundColor = "yellow"
         }
+        if(col11.textContent == word[0]){
+            col11.style.backgroundColor = "green"
+        }
 
         if(col12.textContent == word[0]){
             col12.style.backgroundColor = "yellow"
-        }
-        if(col12.textContent == word[1]){
-            col12.style.backgroundColor = "green"
         }
         if(col12.textContent == word[2]){
             col12.style.backgroundColor = "yellow"
@@ -505,6 +509,9 @@ document.getElementById("submit").onclick = function(){
         if(col12.textContent == word[4]){
             col12.style.backgroundColor = "yellow"
         }
+        if(col12.textContent == word[1]){
+            col12.style.backgroundColor = "green"
+        }
 
         if(col13.textContent == word[0]){
             col13.style.backgroundColor = "yellow"
@@ -512,14 +519,14 @@ document.getElementById("submit").onclick = function(){
         if(col13.textContent == word[1]){
             col13.style.backgroundColor = "yellow"
         }
-        if(col13.textContent == word[2]){
-            col13.style.backgroundColor = "green"
-        }
         if(col13.textContent == word[3]){
             col13.style.backgroundColor = "yellow"
         }
         if(col13.textContent == word[4]){
             col13.style.backgroundColor = "yellow"
+        }
+        if(col13.textContent == word[2]){
+            col13.style.backgroundColor = "green"
         }
 
         if(col14.textContent == word[0]){
@@ -531,11 +538,11 @@ document.getElementById("submit").onclick = function(){
         if(col14.textContent == word[2]){
             col14.style.backgroundColor = "yellow"
         }
-        if(col14.textContent == word[3]){
-            col14.style.backgroundColor = "green"
-        }
         if(col14.textContent == word[4]){
             col14.style.backgroundColor = "yellow"
+        }
+        if(col14.textContent == word[3]){
+            col14.style.backgroundColor = "green"
         }
 
         if(col15.textContent == word[0]){
@@ -578,9 +585,6 @@ document.getElementById("submit").onclick = function(){
         current +=1
     }
     if(current == 27){
-        if(col16.textContent == word[0]){
-            col16.style.backgroundColor = "green"
-        }
         if(col16.textContent == word[1]){
             col16.style.backgroundColor = "yellow"
         }
@@ -593,12 +597,12 @@ document.getElementById("submit").onclick = function(){
         if(col16.textContent == word[4]){
             col16.style.backgroundColor = "yellow"
         }
+        if(col16.textContent == word[0]){
+            col16.style.backgroundColor = "green"
+        }
 
         if(col17.textContent == word[0]){
             col17.style.backgroundColor = "yellow"
-        }
-        if(col17.textContent == word[1]){
-            col17.style.backgroundColor = "green"
         }
         if(col17.textContent == word[2]){
             col17.style.backgroundColor = "yellow"
@@ -609,6 +613,9 @@ document.getElementById("submit").onclick = function(){
         if(col17.textContent == word[4]){
             col17.style.backgroundColor = "yellow"
         }
+        if(col17.textContent == word[1]){
+            col17.style.backgroundColor = "green"
+        }
 
         if(col18.textContent == word[0]){
             col18.style.backgroundColor = "yellow"
@@ -616,14 +623,14 @@ document.getElementById("submit").onclick = function(){
         if(col18.textContent == word[1]){
             col18.style.backgroundColor = "yellow"
         }
-        if(col18.textContent == word[2]){
-            col18.style.backgroundColor = "green"
-        }
         if(col18.textContent == word[3]){
             col18.style.backgroundColor = "yellow"
         }
         if(col18.textContent == word[4]){
             col18.style.backgroundColor = "yellow"
+        }
+        if(col18.textContent == word[2]){
+            col18.style.backgroundColor = "green"
         }
 
         if(col19.textContent == word[0]){
@@ -635,11 +642,11 @@ document.getElementById("submit").onclick = function(){
         if(col19.textContent == word[2]){
             col19.style.backgroundColor = "yellow"
         }
-        if(col19.textContent == word[3]){
-            col19.style.backgroundColor = "green"
-        }
         if(col19.textContent == word[4]){
             col19.style.backgroundColor = "yellow"
+        }
+        if(col19.textContent == word[3]){
+            col19.style.backgroundColor = "green"
         }
 
         if(col20.textContent == word[0]){
@@ -680,9 +687,7 @@ document.getElementById("submit").onclick = function(){
         current +=1
     }
     if(current == 34){
-        if(col21.textContent == word[0]){
-            col21.style.backgroundColor = "green"
-        }
+
         if(col21.textContent == word[1]){
             col21.style.backgroundColor = "yellow"
         }
@@ -695,12 +700,12 @@ document.getElementById("submit").onclick = function(){
         if(col21.textContent == word[4]){
             col21.style.backgroundColor = "yellow"
         }
+        if(col21.textContent == word[0]){
+            col21.style.backgroundColor = "green"
+        }
 
         if(col22.textContent == word[0]){
             col22.style.backgroundColor = "yellow"
-        }
-        if(col22.textContent == word[1]){
-            col22.style.backgroundColor = "green"
         }
         if(col22.textContent == word[2]){
             col22.style.backgroundColor = "yellow"
@@ -711,6 +716,9 @@ document.getElementById("submit").onclick = function(){
         if(col22.textContent == word[4]){
             col22.style.backgroundColor = "yellow"
         }
+        if(col22.textContent == word[1]){
+            col22.style.backgroundColor = "green"
+        }
 
         if(col23.textContent == word[0]){
             col23.style.backgroundColor = "yellow"
@@ -718,14 +726,14 @@ document.getElementById("submit").onclick = function(){
         if(col23.textContent == word[1]){
             col23.style.backgroundColor = "yellow"
         }
-        if(col23.textContent == word[2]){
-            col23.style.backgroundColor = "green"
-        }
         if(col23.textContent == word[3]){
             col23.style.backgroundColor = "yellow"
         }
         if(col23.textContent == word[4]){
             col23.style.backgroundColor = "yellow"
+        }
+        if(col23.textContent == word[2]){
+            col23.style.backgroundColor = "green"
         }
 
         if(col24.textContent == word[0]){
@@ -737,11 +745,11 @@ document.getElementById("submit").onclick = function(){
         if(col24.textContent == word[2]){
             col24.style.backgroundColor = "yellow"
         }
-        if(col24.textContent == word[3]){
-            col24.style.backgroundColor = "green"
-        }
         if(col24.textContent == word[4]){
             col24.style.backgroundColor = "yellow"
+        }
+        if(col24.textContent == word[3]){
+            col24.style.backgroundColor = "green"
         }
 
         if(col25.textContent == word[0]){
@@ -761,6 +769,9 @@ document.getElementById("submit").onclick = function(){
         }
         
         current = current+1
+    }
+    if(col1.style.backgroundColor == "green"&&col2.style.backgroundColor == "green" && col3.style.backgroundColor=="green"&&col4.style.backgroundColor == "green" && col5.style.backgroundColor == "green"){
+        console.log("test1 {object:winner} {lost:false}")
     }
 
     document. getElementById('userInput').value = ""
